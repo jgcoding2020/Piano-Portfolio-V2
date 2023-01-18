@@ -1,0 +1,140 @@
+.top-heading {
+    margin: auto;
+    margin-bottom: 45px;
+    width: 75%;
+    color: black;
+    background-color: gray;
+    border: solid white;
+    padding: 10px 20px
+}
+
+body {
+    color: white;
+    background-color: black
+}
+
+h1 {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 75%;
+    text-align: center
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 75%;
+    border: solid white
+}
+
+.bio-button-container {
+    margin: auto;
+    margin-top: 20px;
+    width: 75%;
+    text-align: center;
+}
+
+.bio-button {
+    margin: 10px 0px 10px 0px;
+    width: 50%;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-duration: 0.4s;
+    border: solid white;
+    padding: 5px 10px
+}
+
+.bio-button:hover {
+    background-color: gray;
+    color: white
+  }
+
+.intro-container {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    border: solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none
+}
+
+p {
+    margin: auto;
+    width: 75%
+}
+
+.carousel {
+    max-width: 600px;
+    position: relative;
+    margin: 25px auto;
+}
+
+.carousel .carousel-item,
+.carousel .carousel-item-hidden {
+    display: none; /* hide all slide images not currently being viewed */
+}
+
+.carousel .carousel-item-visible {
+    display: block; /* show current slide image */
+    animation: fadeVisibility 0.5s; /* for fading effect when switching between slides */
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Navigation control styles */
+.carousel .carousel-actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* put space between the navigation buttons */
+    position: absolute; /* position navigation buttons on top */
+    top: 50%; /* center navigation buttons on the slide */
+    transform: translateY(-50%); /* align navigation buttons */
+}
+
+.carousel .carousel-actions button {
+    border-radius: 50px;
+    background-color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel .carousel-actions button#carousel-button-prev {
+    margin-left: 20px; /* prevent previous button from touching the side*/
+}
+
+.carousel .carousel-actions button#carousel-button-next {
+    margin-right: 20px;  /* prevent next button from touching the side*/
+}
+
+.carousel-dots {
+    text-align: center; 
+}
+
+.dot {
+    opacity: 0.7; /* gray out dots for slides not being visted */
+}
+
+.dot:focus {
+    border: 1px solid black; /* dot for currently visited slide */
+}
+
+/* handle smooth transitions between slides */
+@keyframes fadeVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

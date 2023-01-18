@@ -1,7 +1,6 @@
+/*h1 element at top of body/ page*/
 .top-heading {
-    margin: auto;
     margin-bottom: 45px;
-    width: 75%;
     color: black;
     background-color: gray;
     border: solid white;
@@ -13,6 +12,7 @@ body {
     background-color: black
 }
 
+/*all h1 elements*/
 h1 {
     margin: auto;
     margin-top: 40px;
@@ -21,6 +21,7 @@ h1 {
     text-align: center
 }
 
+/*all iframe elements*/
 iframe {
     display: block;
     margin: auto;
@@ -28,6 +29,7 @@ iframe {
     border: solid white
 }
 
+/*div container for show/ hide bio button*/
 .bio-button-container {
     margin: auto;
     margin-top: 20px;
@@ -35,6 +37,7 @@ iframe {
     text-align: center;
 }
 
+/*bio button*/
 .bio-button {
     margin: 10px 0px 10px 0px;
     width: 50%;
@@ -45,11 +48,13 @@ iframe {
     padding: 5px 10px
 }
 
+/*changes bg adn text color of bio button on mouse over*/
 .bio-button:hover {
     background-color: gray;
     color: white
   }
 
+/*div container for bio p tag element*/
 .intro-container {
     margin: auto;
     margin-top: 20px;
@@ -61,16 +66,19 @@ iframe {
     display: none
 }
 
+/*p tag elemnt with bio*/
 p {
     margin: auto;
     width: 75%
 }
 
+/*main div for carousel holing video iframes*/
 .carousel {
     max-width: 600px;
     position: relative;
     margin: 25px auto;
 }
+
 
 .carousel .carousel-item,
 .carousel .carousel-item-hidden {

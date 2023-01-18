@@ -1,3 +1,4 @@
+//jQuery function that toggles bio and changes button show/ hide
 $(document).ready(function() {
     $(".bio-button").click(function() {
         $(".intro-container").slideToggle("slow");
@@ -5,10 +6,12 @@ $(document).ready(function() {
     });
 });
 
+//variables for carousel elements
 const slides = document.getElementsByClassName("carousel-item");
 const nextButton = document.getElementById("carousel-button-next");
 const prevButton = document.getElementById("carousel-button-prev");
 const dots = document.getElementsByClassName("dot");
+//variables for determining which slide to show through position index and measuring against slides.length
 let position = 0;
 const numberOfSlides = slides.length;
 
@@ -56,5 +59,6 @@ const handleMoveToPrevSlide = function(e) {
     dots[position].checked = true;
 }
 
+//event listeners to go to next/ prev slide
 nextButton.addEventListener("click", handleMoveToNextSlide);
 prevButton.addEventListener("click", handleMoveToPrevSlide);

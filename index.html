@@ -3,6 +3,7 @@
     <head>
         <meta CHARSET="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link for text message photo 200px by 150px-->
         <meta property="og:image" content="./image/AB4FEA90-FAAC-498E-9C48-5ACE3622EEFF.jpeg" />
         <link rel="stylesheet" href="./css/styles.css">
         <title>Piano Portfolio</title>
@@ -10,8 +11,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     </head>
     <body>
-        <h1 class="top-heading">My Experience As A Pianist</h1>
+        <!--Heading at top of page-->
+        <h1 class="top-heading">My Experience As A Pianist</h1> 
         
+        <!--Main carousel div for holding iframes-->
         <div class="carousel">
             <div class="carousel-item carousel-item-visible">
                 <iframe width="350" height="197" src="https://youtube.com/embed/5Yk_BUlKNSQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="Piano Playing Video" alt="piano-video"></iframe>
@@ -47,6 +50,8 @@
                 <button id="carousel-button-prev" aria-label="Previous"><</button>
                 <button id="carousel-button-next" aria-label="Next">></button>
             </div>
+                
+            <!--Number of dots (radio buttons) represents number of videos-->
             <div class="carousel-dots">
                 <input class="dot selected-dot" type="radio" name="dot" checked />
                 <input class="dot" type="radio" name="dot" />
@@ -61,9 +66,12 @@
             </div>
         </div>
        
+        <!--div container for show/ hide bio button-->
         <div class="bio-button-container">
             <button class="bio-button">Show Short Bio</button>
         </div>
+            
+        <!--div container that holds p tag with bio-->
         <div class="intro-container">
             <p>I began playing the piano in grade school and took lessons for a few years.
             I took a break from the piano to transition my time and focus into participating 

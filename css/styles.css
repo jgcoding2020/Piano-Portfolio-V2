@@ -1,43 +1,43 @@
-/*h1 element at top of body/ page
+/*h1 element at top of body/ page*/
 .top-heading {
     margin-bottom: 45px;
     color: white;
     background-color: RGB(52, 58, 64);
     border: solid black;
     padding: 10px 20px
-}*/
+}
 
 body {
     color: black;
     background-color: RGB(108, 117, 125)
 }
 
-/*all h1 elements
+/*all h1 elements*/
 h1 {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 80%;
     text-align: center
-}*/
+}
 
 /*all iframe elements*/
 iframe {
     display: block;
     margin: auto;
-    width: 75%;
+    width: 100%;
     border: solid black 5px
 }
 
-/*div container for show/ hide bio button
+/*div container for show/ hide bio button*/
 .bio-button-container {
     margin: auto;
     margin-top: 20px;
     width: 75%;
     text-align: center;
-}*/
+}
 
-/*bio button
+/*bio button*/
 .bio-button {
     margin: 10px 0px 10px 0px;
     width: 50%;
@@ -46,13 +46,13 @@ iframe {
     transition-duration: 0.4s;
     border: solid black;
     padding: 5px 10px
-}*/
+}
 
-/*changes bg adn text color of bio button on mouse over
+/*changes bg adn text color of bio button on mouse over*/
 .bio-button:hover {
     background-color: RGB(52, 58, 64);
     color: white
-  }*/
+  }
 
 /*div container for bio p tag element*/
 .intro-container {

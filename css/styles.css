@@ -26,7 +26,7 @@ iframe {
     display: block;
     margin: auto;
     width: 75%;
-    border: solid white
+    border: solid black
 }
 
 /*div container for show/ hide bio button*/
@@ -44,7 +44,7 @@ iframe {
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition-duration: 0.4s;
-    border: solid white;
+    border: solid black;
     padding: 5px 10px
 }
 
@@ -60,7 +60,7 @@ iframe {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 75%;
-    border: solid white;
+    border: solid black;
     padding-top: 20px;
     padding-bottom: 20px;
     display: none

@@ -25,7 +25,7 @@ h1 {
 iframe {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 76%;
     border: solid black 5px
 }
 
@@ -33,7 +33,7 @@ iframe {
 .bio-button-container {
     margin: auto;
     margin-top: 20px;
-    width: 75%;
+    width: 76%;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ iframe {
 /*p tag elemnt with bio*/
 p {
     margin: auto;
-    width: 75%
+    width: 76%
 }
 
 /*main div for carousel holing video iframes*/
@@ -92,7 +92,7 @@ p {
 }
 
 .carousel .carousel-item img {
-    width: 75%;
+    width: 76%;
     max-width: 600px;
     height: auto;
 }
@@ -108,7 +108,7 @@ p {
 }
 
 .carousel .carousel-actions button {
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: white;
     border: 0;
     font-size: 8px;

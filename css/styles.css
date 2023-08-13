@@ -73,7 +73,7 @@ p {
     width: 76%
 }
 
-/*main div for carousel holing video iframes*/
+/*main div for carousel containing video iframes*/
 .carousel {
     max-width: 600px;
     position: relative;
